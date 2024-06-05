@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "ConfirmEmail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ConfirmEmail</h1>
+
+<div class="alert alert-warning">
+    @if (TempData["message"] != null)
+    {
+        @TempData["message"] // if else bloklarına göre dönecek olan message
+    }
+</div>
+

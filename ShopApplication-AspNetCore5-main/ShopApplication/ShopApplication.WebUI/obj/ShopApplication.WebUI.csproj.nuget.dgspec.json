@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\net-core-projeler\\ShopApplication\\ShopApplication.WebUI\\ShopApplication.WebUI.csproj": {}
+  },
+  "projects": {
+    "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Business\\ShopApplication.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Business\\ShopApplication.Business.csproj",
+        "projectName": "ShopApplication.Business",
+        "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Business\\ShopApplication.Business.csproj",
+        "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
+        "outputPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj": {
+                "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj"
+              },
+              "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj": {
+                "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj",
+        "projectName": "ShopApplication.DataAccess",
+        "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
+        "outputPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj": {
+                "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj",
+        "projectName": "ShopApplication.Entities",
+        "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj",
+        "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
+        "outputPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\net-core-projeler\\ShopApplication\\ShopApplication.WebUI\\ShopApplication.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.WebUI\\ShopApplication.WebUI.csproj",
+        "projectName": "ShopApplication.WebUI",
+        "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.WebUI\\ShopApplication.WebUI.csproj",
+        "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
+        "outputPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Business\\ShopApplication.Business.csproj": {
+                "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Business\\ShopApplication.Business.csproj"
+              },
+              "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj": {
+                "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.DataAccess\\ShopApplication.DataAccess.csproj"
+              },
+              "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj": {
+                "projectPath": "D:\\net-core-projeler\\ShopApplication\\ShopApplication.Entities\\ShopApplication.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

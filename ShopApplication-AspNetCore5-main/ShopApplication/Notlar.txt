@@ -1,0 +1,5 @@
+Entities --> Varlıklarımın tutulduğu kısım (Category, Product, Order vs.)
+
+DataAccess --> Veritabanı sistemimin tutulduğu katmandır. Bu katmanda
+	       Repository Pattern ile çalışacağız. ÇOK YAYGIN !!
+	
